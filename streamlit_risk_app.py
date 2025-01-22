@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 from streamlit_lottie import st_lottie
 import requests
 
-
-
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -189,6 +187,5 @@ if income > 0 and credit_score > 0:
 # for row in rows:
 #     st.write(row)
 # conn.close()
-# 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
 st.markdown("---")
 st.markdown("**Developed by Ayaz Ali & Ayaz Ali| Powered by Streamlit**")
